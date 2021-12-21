@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "881943867277",
+    "project_id": "nabaa-app-bb6f2",
+    "storage_bucket": "nabaa-app-bb6f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881943867277:android:64e30e4168116a8c4117c4",
+        "android_client_info": {
+          "package_name": "com.makarem.nabaa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "881943867277-vh0hpne8229eqan356lus8ht4todjs95.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.makarem.nabaa",
+            "certificate_hash": "224c29d6bef21dee00be2a98940315fa48368299"
+          }
+        },
+        {
+          "client_id": "881943867277-2qoid9a1atfq7g9a0bqnp5ra3qdoh9sv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHYg02rO4N7vTuwq3Xu2AIBuVcSu5SPVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "881943867277-2qoid9a1atfq7g9a0bqnp5ra3qdoh9sv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

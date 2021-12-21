@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+  <g id="instagram" transform="translate(0 1)">
+    <g id="Rectangle_2385" data-name="Rectangle 2385" transform="translate(0 -1)" fill="#fff" stroke="#f3f7f9" stroke-width="1">
+      <rect width="35" height="35" rx="4" stroke="none"/>
+      <rect x="0.5" y="0.5" width="34" height="34" rx="3.5" fill="none"/>
+    </g>
+    <g id="Group_6142" data-name="Group 6142" transform="translate(-7.483 0.517)">
+      <path id="Path_12252" data-name="Path 12252" d="M122.106,109.468H114.83a5.368,5.368,0,0,0-5.362,5.362v7.275a5.368,5.368,0,0,0,5.362,5.362h7.275a5.368,5.368,0,0,0,5.362-5.362V114.83a5.368,5.368,0,0,0-5.362-5.362Zm3.551,12.638a3.551,3.551,0,0,1-3.551,3.551H114.83a3.551,3.551,0,0,1-3.551-3.551V114.83a3.551,3.551,0,0,1,3.551-3.551h7.275a3.552,3.552,0,0,1,3.551,3.551v7.275Z" transform="translate(-92.984 -101.984)" fill="#c5cee0"/>
+      <path id="Path_12253" data-name="Path 12253" d="M184.857,180.2a4.655,4.655,0,1,0,4.655,4.656,4.661,4.661,0,0,0-4.655-4.656Zm0,7.5a2.845,2.845,0,1,1,2.845-2.845,2.845,2.845,0,0,1-2.845,2.845Z" transform="translate(-159.374 -168.374)" fill="#c5cee0"/>
+      <path id="Path_12254" data-name="Path 12254" d="M316.008,163.727a1.116,1.116,0,1,1-1.116-1.116,1.116,1.116,0,0,1,1.116,1.116Z" transform="translate(-284.745 -151.864)" fill="#c5cee0"/>
+    </g>
+  </g>
+</svg>
