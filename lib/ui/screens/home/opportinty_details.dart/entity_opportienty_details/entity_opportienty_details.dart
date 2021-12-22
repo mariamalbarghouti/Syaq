@@ -8,7 +8,7 @@ import 'package:syag/ui/screens/home/opportinty_details.dart/utils/description_b
 import 'package:syag/ui/screens/home/opportinty_details.dart/utils/description_benefits_or_info_tab/description_benefits_or_info_tab.dart';
 import 'package:syag/utils/colors.dart';
 
-//
+// Entity Opportunities
 class EntityOpportientiesDetails extends StatefulWidget {
   const EntityOpportientiesDetails();
 
@@ -189,8 +189,7 @@ class _EntityOpportientiesDetailsState extends State<EntityOpportientiesDetails>
                               ),
                             ),
                           ],
-                        )
-                        // : const SizedBox.shrink(),
+                        ),
                       ],
                     ),
                   ),
@@ -260,8 +259,6 @@ class _EntityOpportientiesDetailsState extends State<EntityOpportientiesDetails>
                 bottom: 5.h,
               ),
               width: 30.w,
-              // padding: EdgeInsets.symmetric(horizontal: 4.w),
-              //  width: 60,
               child: ElevatedButton(
                 onPressed: () => Get.to(() => const MessagePage()),
                 // style: ,
