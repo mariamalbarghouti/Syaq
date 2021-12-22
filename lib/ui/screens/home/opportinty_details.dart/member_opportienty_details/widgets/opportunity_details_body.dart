@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_utils/src/extensions/internacionalization.dart';
 import 'package:sizer/sizer.dart';
-import 'package:syag/ui/screens/home/opportinty_details.dart/member_opportienty_details/widgets/opportunity_details_widget.dart';
+import 'package:syag/ui/screens/home/opportinty_details.dart/member_opportienty_details/widgets/opportunity_details_widget/opportunity_details_widget.dart';
 import 'package:syag/ui/screens/home/opportinty_details.dart/utils/opportunity_tab_bar_widget.dart';
 import 'package:syag/ui/screens/home/opportinty_details.dart/utils/description_benefits_or_info_tab/apportunities_details_tab_enum.dart';
 import 'package:syag/ui/screens/home/opportinty_details.dart/utils/description_benefits_or_info_tab/description_benefits_or_info_tab.dart';

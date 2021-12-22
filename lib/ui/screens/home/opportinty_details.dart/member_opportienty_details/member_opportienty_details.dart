@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:get/get_utils/src/extensions/internacionalization.dart';
 import 'package:sizer/sizer.dart';
 import 'package:syag/ui/screens/home/message_page/message_page.dart';
-import 'package:syag/ui/screens/home/opportinty_details.dart/member_opportienty_details/widgets/opportunity_details_widget/opportunity_details_body.dart';
+import 'package:syag/ui/screens/home/opportinty_details.dart/member_opportienty_details/widgets/opportunity_details_body.dart';
 import 'package:syag/ui/screens/home/opportunity_search_or_my_fav_page/opportunity_or_my_fav_page.dart';
 import 'package:syag/utils/colors.dart';
 
@@ -20,6 +20,7 @@ class MemberOpportientiesDetailsPage extends StatelessWidget {
       // Appbar
       appBar: AppBar(
         title: Text("opportunity_details".tr.toUpperCase()),
+        // Back Icon
         leading: IconButton(
           onPressed: () => Get.back(),
           padding: EdgeInsets.zero,

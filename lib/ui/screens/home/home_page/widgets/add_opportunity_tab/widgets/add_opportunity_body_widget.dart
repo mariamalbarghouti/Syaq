@@ -4,7 +4,7 @@ import 'package:get/get.dart';
 import 'package:get/get_utils/src/extensions/internacionalization.dart';
 import 'package:sizer/sizer.dart';
 import 'package:syag/ui/screens/home/utilities/custom_dialog_for_sign_up_member_radio_group.dart';
-import 'package:syag/ui/screens/home/utilities/lable_with_star_widget.dart';
+import 'package:syag/ui/screens/utilities/lable_with_star_widget.dart';
 import 'package:syag/utils/colors.dart';
 import 'package:syag/utils/constants.dart';
 

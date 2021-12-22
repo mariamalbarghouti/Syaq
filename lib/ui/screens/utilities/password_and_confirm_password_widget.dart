@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:get/get.dart';
 import 'package:sizer/sizer.dart';
-import 'package:syag/ui/screens/home/utilities/lable_with_star_widget.dart';
+import 'package:syag/ui/screens/utilities/lable_with_star_widget.dart';
 import 'package:syag/utils/colors.dart';
 import 'package:syag/utils/constants.dart';
 
@@ -12,18 +12,19 @@ class PasswordAndConfirmPasswordWidget extends HookWidget {
 
   @override
   Widget build(BuildContext context) {
-     //   Password Controller
+    //   Password Controller
     final passwordController = useTextEditingController();
-      // Toggle Obsecure Password
+    // Toggle Obsecure Password
     ValueNotifier<bool> isObscurePassword = useState(true);
 
     // Toggle Obsecure Confirm Password
     ValueNotifier<bool> isObscureConfirmPassword = useState(true);
-      //  Confirm Controller
+    //  Confirm Controller
     final confirmPasswordController = useTextEditingController();
-    return // Password
-       Column(children: [
-          // Password
+
+    return Column(
+      children: [
+        // Password
         TextField(
           controller: passwordController,
           obscureText: isObscurePassword.value,
@@ -74,8 +75,9 @@ class PasswordAndConfirmPasswordWidget extends HookWidget {
                     size: 21.sp,
                   ),
                 ),
-              ),),
-       ],);
-    // );
+              ),
+        ),
+      ],
+    );
   }
 }

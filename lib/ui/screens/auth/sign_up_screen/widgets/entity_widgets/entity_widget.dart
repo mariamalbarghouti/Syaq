@@ -5,7 +5,7 @@ import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:sizer/sizer.dart';
 import 'package:syag/ui/screens/auth/sign_up_screen/widgets/entity_widgets/sign_up_entity_input_entries_widget.dart';
-import 'package:syag/ui/screens/home/utilities/lable_with_star_widget.dart';
+import 'package:syag/ui/screens/utilities/lable_with_star_widget.dart';
 import 'package:syag/utils/colors.dart';
 
 class EntityWidget extends HookWidget {

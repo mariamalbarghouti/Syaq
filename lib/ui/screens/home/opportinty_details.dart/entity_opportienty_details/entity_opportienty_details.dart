@@ -4,7 +4,6 @@ import 'package:get/get_utils/src/extensions/internacionalization.dart';
 import 'package:sizer/sizer.dart';
 import 'package:syag/ui/screens/home/message_page/message_page.dart';
 import 'package:syag/ui/screens/home/opportinty_details.dart/entity_opportienty_details/widgets/members.dart';
-import 'package:syag/ui/screens/home/opportinty_details.dart/member_opportienty_details/widgets/opportunity_details_widget/widgets/logo_and_company_name.dart';
 import 'package:syag/ui/screens/home/opportinty_details.dart/utils/description_benefits_or_info_tab/apportunities_details_tab_enum.dart';
 import 'package:syag/ui/screens/home/opportinty_details.dart/utils/description_benefits_or_info_tab/description_benefits_or_info_tab.dart';
 import 'package:syag/utils/colors.dart';

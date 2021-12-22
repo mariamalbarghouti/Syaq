@@ -4,7 +4,7 @@ import 'package:get/get.dart';
 import 'package:sizer/sizer.dart';
 import 'package:step_progress_indicator/step_progress_indicator.dart';
 import 'package:syag/ui/screens/home/home_page/home_page.dart';
-import 'package:syag/ui/screens/home/utilities/lable_with_star_widget.dart';
+import 'package:syag/ui/screens/utilities/lable_with_star_widget.dart';
 import 'package:syag/utils/colors.dart';
 import 'package:syag/utils/constants.dart';
 import 'package:carousel_slider/carousel_slider.dart';

@@ -3,7 +3,7 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:get/get.dart';
 import 'package:sizer/sizer.dart';
 import 'package:syag/ui/screens/home/contact_us_page/widgets/social_media_widget.dart';
-import 'package:syag/ui/screens/home/utilities/lable_with_star_widget.dart';
+import 'package:syag/ui/screens/utilities/lable_with_star_widget.dart';
 import 'package:syag/utils/constants.dart';
 
 // Contact Us Body
