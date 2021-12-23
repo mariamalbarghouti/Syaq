@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:sizer/sizer.dart';
-import 'package:syag/ui/screens/home/opportinty_details.dart/member_opportienty_details/widgets/opportunity_details_widget/widget/opportunity_details_components.dart';
+import 'package:syag/ui/screens/home/opportinty_details.dart/utils/row_of_icon_and_text_widget.dart';
 import 'package:syag/utils/colors.dart';
 
 // Member Opportunity Details Info Widget
@@ -58,12 +58,12 @@ class MemberOpportunityDetailsInfoWidget extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               // Location
-              OpportunityDetailsComponents(
+              RowOfIconAndTextWidget(
                 icon: Icons.location_on_outlined,
                 text: "location".tr,
               ),
               // Calander
-              OpportunityDetailsComponents(
+              RowOfIconAndTextWidget(
                 icon: Icons.calendar_today_outlined,
                 text: "date".tr,
               ),
@@ -76,7 +76,7 @@ class MemberOpportunityDetailsInfoWidget extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Container(
-                  child: OpportunityDetailsComponents(
+                  child: RowOfIconAndTextWidget(
                     icon: SizedBox(
                       height: 2.2.h,
                       width: 2.2.h,
@@ -93,7 +93,7 @@ class MemberOpportunityDetailsInfoWidget extends StatelessWidget {
                   ),
                 ),
                 isMyOpportunity
-                    ? OpportunityDetailsComponents(
+                    ? RowOfIconAndTextWidget(
                         icon: Icons.flag_sharp,
                         text: "status".tr,
                       )

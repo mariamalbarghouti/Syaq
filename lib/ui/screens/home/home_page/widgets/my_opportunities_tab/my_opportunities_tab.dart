@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_utils/src/extensions/internacionalization.dart';
 import 'package:sizer/sizer.dart';
-import 'package:syag/ui/screens/home/opportinty_details.dart/member_opportienty_details/member_opportienty_details.dart';
+import 'package:syag/ui/screens/home/opportinty_details.dart/member_opportienty_details/member_opportienty_details_page.dart';
 import 'package:syag/utils/colors.dart';
 
 // My Opportunity

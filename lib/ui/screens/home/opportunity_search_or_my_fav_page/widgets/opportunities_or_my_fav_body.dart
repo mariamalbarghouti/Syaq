@@ -3,7 +3,7 @@ import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:sizer/sizer.dart';
 import 'package:syag/ui/screens/auth/select_role_screen/select_role_screen.dart';
-import 'package:syag/ui/screens/home/opportinty_details.dart/member_opportienty_details/member_opportienty_details.dart';
+import 'package:syag/ui/screens/home/opportinty_details.dart/member_opportienty_details/member_opportienty_details_page.dart';
 import 'package:syag/ui/screens/home/opportunity_search_or_my_fav_page/widgets/search_filter_dialog.dart';
 import 'package:syag/utils/colors.dart';
 import 'package:syag/utils/constants.dart';

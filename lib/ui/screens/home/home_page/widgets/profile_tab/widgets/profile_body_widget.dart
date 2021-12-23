@@ -57,8 +57,8 @@ class ProfileBodyWidget extends StatelessWidget {
                       // Change Password
                       ListTile(
                         onTap: () => Get.to(
-                          () => const ResetOrChangePassword(
-                              isChangePassword: true),
+                          () => const ResetOrChangePasswordPAge(
+                              isChangePassword: true,),
                         ),
                         trailing: Icon(
                           Icons.arrow_forward_ios_sharp,

@@ -93,9 +93,8 @@ class VerrivicationBody extends HookWidget {
                     hasError.value = true;
                   } else {
                     hasError.value = false;
-                    // print("\n else: ${ hasError.value}\n");
                   }
-                  Get.to(() => const ResetOrChangePassword());
+                  Get.to(() => const ResetOrChangePasswordPAge());
                 },
                 // Verify Text
                 child: Text(

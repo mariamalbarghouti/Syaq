@@ -44,7 +44,7 @@ class ForgetPasswordBody extends HookWidget {
             Container(
               margin: EdgeInsets.only(top: 3.h),
               child: ElevatedButton(
-                onPressed: () => Get.to(() => const VerificationCodeScreen()),
+                onPressed: () => Get.to(() => const VerificationCodePage()),
                 child: Text(
                   "send".tr,
                   style: Get.textTheme.headline1!.copyWith(color: whiteColor),

@@ -7,15 +7,18 @@ import 'package:syag/ui/screens/auth/verification_code_screen/widgets/verificati
 import 'package:syag/utils/colors.dart';
 import 'package:sizer/sizer.dart';
 
-class VerificationCodeScreen extends HookWidget {
-  const VerificationCodeScreen({Key? key}) : super(key: key);
+// Verrification Page
+class VerificationCodePage extends HookWidget {
+  const VerificationCodePage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
   
     return Scaffold(
+      // AppBar
       appBar: AppBar(
         title: Text("verification_code".tr),
+        // Back Button
         leading: IconButton(
           onPressed: () => Get.back(),
           padding: EdgeInsets.zero,
@@ -26,15 +29,8 @@ class VerificationCodeScreen extends HookWidget {
           ),
         ),
       ),
-      body: VerrivicationBody(),
+      // Body
+      body: const VerrivicationBody(),
     );
   }
 }
-// TextButton(
-// child: Text("Set Text"),
-//       onPressed: () {
-//         setState(() {
-//           textEditingController.text = "123456";
-//         });
-//       },
-//     )),

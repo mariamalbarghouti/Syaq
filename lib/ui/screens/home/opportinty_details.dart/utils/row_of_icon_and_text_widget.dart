@@ -3,9 +3,9 @@ import 'package:get/get.dart';
 import 'package:sizer/sizer.dart';
 import 'package:syag/utils/colors.dart';
 
-// Opportunity Details Components
-class OpportunityDetailsComponents extends StatelessWidget {
-  const OpportunityDetailsComponents({
+// Row Of Icon And Text Widget
+class RowOfIconAndTextWidget extends StatelessWidget {
+  const RowOfIconAndTextWidget({
     Key? key,
     required this.icon,
     required this.text,

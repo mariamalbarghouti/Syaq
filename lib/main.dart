@@ -12,10 +12,10 @@ Future<void> main() async {
     statusBarColor: Colors.transparent, // transparent status bar
   ));
   await SharedPrefs.init();
-  runApp(
-    // DevicePreview(
-    // builder: (context) =>
-    const AppWidge(),
+  // runApp(
+  //   DevicePreview(
+  //   builder: (context) =>
+    const AppWidge();
     // ),
-  );
+  // );
 }

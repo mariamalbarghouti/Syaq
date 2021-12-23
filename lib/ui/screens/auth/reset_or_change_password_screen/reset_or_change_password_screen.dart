@@ -7,8 +7,8 @@ import 'package:syag/utils/colors.dart';
 import 'package:sizer/sizer.dart';
 
 // Reset Or Change Password
-class ResetOrChangePassword extends HookWidget {
-  const ResetOrChangePassword({
+class ResetOrChangePasswordPAge extends HookWidget {
+  const ResetOrChangePasswordPAge({
     Key? key,
     this.isChangePassword,
   }) : super(key: key);

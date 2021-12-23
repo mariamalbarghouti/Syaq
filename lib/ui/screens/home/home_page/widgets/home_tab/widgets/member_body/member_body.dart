@@ -5,7 +5,7 @@ import 'package:sizer/sizer.dart';
 import 'package:syag/ui/screens/home/home_page/widgets/home_tab/widgets/member_body/widgets/images_slider_widgets.dart';
 import 'package:syag/ui/screens/home/home_page/widgets/home_tab/widgets/member_body/widgets/opportunities_text_and_see_all_button_widgets.dart';
 import 'package:syag/ui/screens/home/home_page/widgets/home_tab/widgets/utilities/opportunity_card.dart';
-import 'package:syag/ui/screens/home/opportinty_details.dart/member_opportienty_details/member_opportienty_details.dart';
+import 'package:syag/ui/screens/home/opportinty_details.dart/member_opportienty_details/member_opportienty_details_page.dart';
 
 // Member Body
 class MemberBody extends StatelessWidget {

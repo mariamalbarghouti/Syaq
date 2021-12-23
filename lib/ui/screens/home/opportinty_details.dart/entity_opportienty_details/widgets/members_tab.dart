@@ -2,11 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_utils/src/extensions/internacionalization.dart';
 import 'package:sizer/sizer.dart';
-import 'package:syag/ui/screens/home/opportinty_details.dart/entity_opportienty_details/widgets/members_dialog.dart';
+import 'package:syag/ui/screens/home/opportinty_details.dart/entity_opportienty_details/widgets/member_details_dialog.dart';
 import 'package:syag/utils/colors.dart';
 
-class Members extends StatelessWidget {
-  const Members({Key? key}) : super(key: key);
+// Members Tab
+class MembersTab extends StatelessWidget {
+  const MembersTab({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -18,9 +19,7 @@ class Members extends StatelessWidget {
               physics: const BouncingScrollPhysics(),
               itemBuilder: (context, index) => Container(
                 margin: EdgeInsets.only(top :2.w,right: 1.5.w,left:1.5.w,bottom: 1.h),
-                // padding: EdgeInsets.all(5.w),
-                // clipBehavior: Clip.hardEdge,
-                // color: whiteColor,
+               
                 decoration: BoxDecoration(
                   color: whiteColor,
                   borderRadius: const BorderRadius.all(Radius.circular(10)),
@@ -51,7 +50,7 @@ class Members extends StatelessWidget {
                       ),
                     ],
                   ),
-                  onTap: () =>membersDialog(context: context),
+                  onTap: () =>memberDetailsDialog(context: context),
                   // leading: Icon(Icons.ac_unit_outlined),
                   subtitle: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,

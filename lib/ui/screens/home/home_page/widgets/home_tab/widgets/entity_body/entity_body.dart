@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:sizer/sizer.dart';
 import 'package:syag/ui/screens/home/home_page/widgets/home_tab/widgets/entity_body/widgets/statistical_bar_view_widget.dart';
 import 'package:syag/ui/screens/home/home_page/widgets/home_tab/widgets/utilities/opportunity_card.dart';
-import 'package:syag/ui/screens/home/opportinty_details.dart/entity_opportienty_details/entity_opportienty_details.dart';
+import 'package:syag/ui/screens/home/opportinty_details.dart/entity_opportienty_details/entity_opportienty_details_page.dart';
 
 // Entity Home Body
 class EntityBody extends StatelessWidget {
@@ -22,7 +22,7 @@ class EntityBody extends StatelessWidget {
           // List of Opportunity Card
           ListOfOpportunities(
             onTap: () => Get.to(
-              () => const EntityOpportientiesDetails(),
+              () => const EntityOpportientiesDetailsPage(),
             ),
             length: 15,
             isMember: false,
@@ -30,7 +30,6 @@ class EntityBody extends StatelessWidget {
             date: "date".tr,
             location: "location".tr,
             status: "status".tr,
-
           ),
           // Bottom Space to make the last
           // Card visible enough
