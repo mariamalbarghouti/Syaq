@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:syag/utils/colors.dart';
 import 'package:sizer/sizer.dart';
@@ -38,6 +39,7 @@ class AppTheme {
             fontSize: 14.sp,
           ),
         ),
+        
         // Icon
         iconTheme: const IconThemeData(
           color: blackColor,
