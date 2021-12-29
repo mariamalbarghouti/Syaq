@@ -3,7 +3,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:get/get_utils/src/extensions/internacionalization.dart';
 import 'package:sizer/sizer.dart';
-import 'package:syag/1/important.dart';
+import 'package:syag/utils/logger_mixin.dart';
 import 'package:syag/utils/routes/app_route.dart';
 import 'package:syag/utils/routes/app_route_links.dart';
 import '../utils/theme.dart';
