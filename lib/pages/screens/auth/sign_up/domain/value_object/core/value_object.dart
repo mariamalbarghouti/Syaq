@@ -1,14 +1,24 @@
 
 import 'package:dartz/dartz.dart';
+import 'package:syag/utils/errors/errors.dart';
 // Value Object
 // for enable the equallity thing 
 abstract class ValueObject<L,R> {
   const ValueObject();
   Either<L,R> get value;
   
-  val(){
-    // return value.fold
+  getOrCrash(){
+    return value.fold((l) => throw UnexpectedValueObjectError(l.toString()), (r) => r);
   }
+  get failureOrUnit{
+    return value.fold((l) => left(l), (_) => right(unit));
+  }
+  //  Either<ValueFailure<dynamic>, Unit> get failureOrUnit {
+  //   return value.fold(
+  //     (l) => left(l),
+  //     (r) => right(unit),
+  //   );
+  // }
   //   T getOrElse(T dflt) {
   //   return value.getOrElse(() => dflt);
   // }

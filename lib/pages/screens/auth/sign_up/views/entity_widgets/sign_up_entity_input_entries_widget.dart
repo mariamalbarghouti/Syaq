@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:sizer/sizer.dart';
-import 'package:syag/pages/screens/auth/sign_up/controllers/entity_sing_up_controller.dart';
+import 'package:syag/pages/screens/auth/sign_up/controllers/entity_controllers/entity_sing_up_controller.dart';
 import 'package:syag/pages/screens/utilities/lable_with_star_widget.dart';
 import 'package:syag/utils/colors.dart';
 import 'package:syag/utils/constants.dart';

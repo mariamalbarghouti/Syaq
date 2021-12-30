@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:sizer/sizer.dart';
-import 'package:syag/pages/screens/auth/sign_up/controllers/logo_picker_controller.dart';
+import 'package:syag/pages/screens/auth/sign_up/controllers/entity_controllers/logo_picker_controller.dart';
 import 'package:syag/pages/screens/auth/sign_up/views/entity_widgets/pick_logo_widget/logo_picker_widget.dart';
 
 // Entity Logo from mobile

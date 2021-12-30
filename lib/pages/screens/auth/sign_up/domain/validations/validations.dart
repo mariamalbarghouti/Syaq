@@ -17,3 +17,12 @@ Either<EntityFailures, File?> entityLogoValidation({required String? logo}) {
     );
   }
 }
+// TODO make falure out 
+// make unexpected error general
+Either<EntityFailures,String> conditionAndTerms({required String? text}){
+if(text ==null){
+  return left(EntityFailures.unexpected(msg: "unexpeted_error".tr));
+}else{
+  return right(text);
+}
+}

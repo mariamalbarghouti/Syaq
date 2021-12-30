@@ -241,6 +241,11 @@ const Map<String, String> ar = {
   /// Message
 // "member_name":"Member Name",
   "type_a_message": "اكتب رسالة",
+  /////////////////////////////////////////////////////////////////////
+// General 
+  "unexpeted_error": "حدث خطأ ما",
+  "unexpeted_error_msg": "لقد حدث خطأ ما في القيمه كان الخطأ",
+
 ///////////////////////////////////////////////////////////////
 
   //Dummy Data

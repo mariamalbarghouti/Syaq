@@ -22,7 +22,7 @@ class AppWidge extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           theme: AppTheme.theme,
           translations: AppTranslation(),
-         logWriterCallback: Logger.write,
+        //  logWriterCallback: Logger.write,
 
           // For Handling the directions 
           // of the material 

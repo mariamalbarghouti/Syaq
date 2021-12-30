@@ -246,6 +246,10 @@ const Map<String, String> en = {
   /// Message
 // "member_name":"Member Name",
   "type_a_message": "Type A Message",
+/////////////////////////////////////////////////////////////////////
+// General 
+  "unexpeted_error": "Unexpected Error",
+  "unexpeted_error_msg": "Encountered a ValueFailure at an unrecoverable point. Terminating. the error was ",
 
 /////////////////////////////////////////////////////////////////////
   //Dummy Data

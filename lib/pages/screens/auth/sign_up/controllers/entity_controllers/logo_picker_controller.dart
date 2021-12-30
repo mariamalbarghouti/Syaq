@@ -1,5 +1,3 @@
-import 'dart:io';
-
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:syag/pages/screens/auth/sign_up/domain/value_object/entity_value_object/entity_logo_value_object.dart';
@@ -12,7 +10,7 @@ class LogoPickerController extends GetxController {
    EntityLogo logo =EntityLogo(logo: "");
 
   Future<void> logoPick() async {
-  print("${logo.value}");
+  // print("${logo.value}");
     ImagePicker imagePicker = ImagePicker();
     XFile? img = await imagePicker.pickImage(
       source: ImageSource.gallery,
